@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CleanCoding:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CleanCoding_jar</output-path>
+    <root id="archive" name="CleanCoding.jar">
+      <element id="module-output" name="CleanCoding" />
+    </root>
+  </artifact>
+</component>

@@ -5,10 +5,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	Scanner scanner = new Scanner(System.in);
+	    var textBox = new TextBox();
 
-    int value = scanner.nextInt();
-
-        System.out.println(value);
+        System.out.println(textBox.toString() == null ? "something" : textBox.toString());
     }
 }
