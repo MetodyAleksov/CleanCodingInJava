@@ -4,17 +4,21 @@ public class Employee {
     private int baseSalary;
     private int hourlyRate;
     private int extraHours;
+    public int numberOfEmployees;
 
-    public Employee(){
+    public Employee()
+    {
         this.setExtraHours(1);
         this.setHourlyRate(20);
         this.setBaseSalary(50000);
+        numberOfEmployees++;
     }
 
     public Employee(int baseSalary, int hourlyRate, int extraHours){
         this.setExtraHours(extraHours);
         this.setBaseSalary(baseSalary);
         this.setHourlyRate(hourlyRate);
+        numberOfEmployees++;
     }
 
     public int calculateWage(){
